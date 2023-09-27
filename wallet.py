@@ -1,4 +1,5 @@
-# wallet.py
+import pandas
+import numpy 
 class Wallet:
     def __init__(self):
         self.balance = 0
