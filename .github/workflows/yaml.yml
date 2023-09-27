@@ -22,7 +22,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run unit tests
-        run: python -m unittest tests/test_wallet.py
+        run: python -m unittest test_wallet.py
 
       - name: Code quality check
         run: pylint wallet.py
