@@ -2,3 +2,4 @@ pylint
 pytest
 numpy 
 pandas
+isort
